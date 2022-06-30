@@ -8,7 +8,7 @@
 2. 安装数据库 mysql
 3. 下载php
 4. 以上三步推荐使用Appserv集成度好，不需要动脑子
-5. 下载下面链接 <http://101.132.76.180:8000/f/1471665707/>
+5. 下载下面链接 <http://101.132.76.180:8000/f/1471665707/>不需要登陆
 6. 将snort路径位于c:\snort中 ！！！,不然自己要配置路径，很麻烦
 7. 启动appserv 登录localhost 按照pdf修改网页内容，`snort/etc/snort.conf`不要动，修改好的。
 8. 可以到使用`c:\snort\bin\snort -i1 -c c:\snort\etc\snort.conf -l c:\snort\log -T`看一下是否有错
@@ -21,3 +21,5 @@
 2. debug的时候可以只保留一个规则，如local.rules 
 `alert icmp any any -> $HOME_NET any (msg:"SNORT：any host ping this host";sid:201900003; rev:1;)`看base是不是有icmp的alert
 # 都2022年了，还在用十多年前的项目来用作当前的IDS，整笑了。😜😜
+# 如果上述进不去了就用
+<https://cloud.189.cn/web/share?code=VVNvemyiaaEf>（访问码：zqr7）
