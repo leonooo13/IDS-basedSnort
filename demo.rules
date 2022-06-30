@@ -1,0 +1,1 @@
+alert tcp any any -> $HOME_NET any (msg:"tcp attack any";  sid:201900001; rev:1;)

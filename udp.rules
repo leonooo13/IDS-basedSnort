@@ -1,0 +1,1 @@
+alert udp any any -> $HOME_NET any (msg:"udp alert";  sid:20220630; rev:1;)

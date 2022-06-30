@@ -1,0 +1,1 @@
+alert tcp any any -> ￥HOME_NET any (msg:"MSF SYN scanning detected"; flags:S; ttl:=32; ack:0; sid:2000002)
