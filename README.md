@@ -23,3 +23,5 @@
 # 都2022年了，还在用十多年前的项目来用作当前的IDS，整笑了。😜😜
 # 如果上述进不去了就用
 <https://cloud.189.cn/web/share?code=VVNvemyiaaEf>（访问码：zqr7）
+# 启动脚本位于bin下，-i后设为自己的网卡索引
+# attack3 默认获取的是本机ip，虚拟可以将ip赋值常量。
