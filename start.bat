@@ -1,0 +1,1 @@
+snort -i4 -dev -c c:\snort\etc\snort.conf -l c:\snort\log
