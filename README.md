@@ -20,8 +20,8 @@
 1. 注意网卡的选择，要输入命令运行snort后，alert.ids没东西，大多数就是网卡有错。
 2. debug的时候可以只保留一个规则，如local.rules 
 `alert icmp any any -> $HOME_NET any (msg:"SNORT：any host ping this host";sid:201900003; rev:1;)`看base是不是有icmp的alert
-# 都2022年了，还在用十多年前的项目来用作当前的IDS，整笑了。😜😜
-# 如果上述进不去了就用
+## 都2022年了，还在用十多年前的项目来用作当前的IDS，整笑了。😜😜
+如果上述进不去了就用
 <https://cloud.189.cn/web/share?code=VVNvemyiaaEf>（访问码：zqr7）
-# 启动脚本位于bin下，-i后设为自己的网卡索引
-# attack3 默认获取的是本机ip，虚拟可以将ip赋值常量。
+启动脚本位于bin下，-i后设为自己的网卡索引
+attack3 默认获取的是本机ip，虚拟可以将ip赋值常量。
